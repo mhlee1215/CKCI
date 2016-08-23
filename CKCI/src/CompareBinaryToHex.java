@@ -5,7 +5,7 @@ public class CompareBinaryToHex {
 		int b1 = convertToBase(binary, 2);
 		int b2 = convertToBase(hex, 16);
 		if(b1 == b2) return true;
-		return false;
+		return false;//hello
 	}
 	
 	public static int convertToBase(String number, int base){
